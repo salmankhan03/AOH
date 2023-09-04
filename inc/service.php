@@ -80,7 +80,9 @@
         }
 
         .nav-link {
-            position: relative;
+             color: #202020 !important;
+            text-transform: uppercase;
+             position: relative;
         }
 
         /* .nav-link:hover {
@@ -102,7 +104,8 @@
         .nav-link:hover::after {
             opacity: 1;
         }
-        .gap{
+
+        .gap {
             padding: 40px;
         }
     </style>
