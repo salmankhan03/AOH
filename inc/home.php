@@ -18,19 +18,29 @@
         }
 
         h1 {
+            font-size: 65pt;
             font-family: "Cormorant_Garamond variant0", Tofu;
             text-transform: uppercase;
             color: white;
         }
 
-        .card {
-            padding-left: 10%;
-            padding-right: 10%;
-            padding: 5%;
+        .exp {
+            padding-left: 15%;
+            padding-right: 15%;
+            padding-top: 50px;
+
+        }
+
+        .space {
+            padding-top: 50px;
+        }
+
+        .bg {
+            padding: 50px;
         }
 
         h2 {
-
+            font-size: 48pt;
             font-family: "Cormorant_Garamond variant0", Tofu;
             color: #191970;
 
@@ -51,17 +61,18 @@
         }
 
         .accordion-button::after {
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/%3E%3C/svg%3E");
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/%3E%3C/svg%3E") !important;
             transition: all 0.5s;
         }
 
         .accordion-button:not(.collapsed)::after {
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/%3E%3C/svg%3E");
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/%3E%3C/svg%3E") !important;
         }
     </style>
 </head>
 
 <body>
+    <?php include 'header.php'; ?>
     <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -97,15 +108,17 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-    <div class="card">
-        <div class="card-body">
-            <h2 class="card-title">Experts in the development, management, and consultation of senior living, assisted living, and memory care communities</h2>
-            <p class="card-text">Atrium Origin Health stands as a leading management company dedicated to providing professional senior care and living services. Our commitment to excellence and compassion sets us apart, ensuring a superior quality of life for our elderly population. With over 20 years of experience in the industry, we offer tailored solutions and strategic insights to senior facilities and companies, making us the preferred choice for senior living services.</p>
+    <div class="container">
+        <div class="row exp">
+            <div class="col">
+                <h2 class="card-title">Experts in the development, management, and consultation of senior living, assisted living, and memory care communities</h2>
+                <p class="card-text">Atrium Origin Health stands as a leading management company dedicated to providing professional senior care and living services. Our commitment to excellence and compassion sets us apart, ensuring a superior quality of life for our elderly population. With over 20 years of experience in the industry, we offer tailored solutions and strategic insights to senior facilities and companies, making us the preferred choice for senior living services.</p>
 
+            </div>
         </div>
     </div>
-    <div class="container overflow-hidden">
-        <div class="row gx-5" style="background-color: white;">
+    <div class="container space overflow-hidden">
+        <div class="row  gx-5" style="background-color: white;">
             <div class="col-lg-6 sm-12">
                 <div class="p-3">
                     <div class="img">
@@ -123,34 +136,36 @@
             </div>
         </div>
     </div>
-    <div class="container my-4 overflow-hidden">
-        <div class="row gx-5" style="background-color: #FCF2FF;">
-            <div class="col-lg-6 sm-12">
-                <div class="p-3">
-                    <div class="text">
-                        <h2>Customized Solutions for Senior Facilities and Companies</h2>
-                        <p> We take pride in offering tailored solutions to meet the unique needs of senior living communities. Our expertise allows us to craft personalized strategies that align perfectly with the goals and aspirations of our partners. Whether it's enhancing operational efficiency, implementing specialized care programs, or optimizing resident experiences, we work closely with you to understand your specific requirements and challenges.</p>
+    <div class="container space my-4 overflow-hidden">
+        <div class="" style="background-color: #F0F0F0;">
+            <div class="row  gx-5">
+                <div class="col-lg-6 sm-12">
+                    <div class="p-3">
+                        <div class="text bg">
+                            <h2>Customized Solutions for Senior Facilities and Companies</h2>
+                            <p> We take pride in offering tailored solutions to meet the unique needs of senior living communities. Our expertise allows us to craft personalized strategies that align perfectly with the goals and aspirations of our partners. Whether it's enhancing operational efficiency, implementing specialized care programs, or optimizing resident experiences, we work closely with you to understand your specific requirements and challenges.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-6 sm-12">
-                <div class="p-3">
-                    <div class="img">
-                        <img src="	https://bridge439.qodeinteractive.com/wp-content/uploads/2021/07/home-image-2-1024x733.jpg" alt="" width="100%">
+                <div class="col-lg-6 sm-12">
+                    <div class="p-3">
+                        <div class="img2">
+                            <img src="	https://bridge439.qodeinteractive.com/wp-content/uploads/2021/07/home-image-2-1024x733.jpg" alt="" width="100%">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container px-4">
-        <div class="row gx-5">
+    <div class="container space px-4">
+        <div class="row  gx-5">
             <div class="col-lg-6 col-sm-12">
                 <div class="p-3 bg-white">
-                    <img src="https://bridge439.qodeinteractive.com/wp-content/uploads/2021/07/services-image-3.jpg" alt="" width="100%" height="100%">
+                    <img src="https://bridge439.qodeinteractive.com/wp-content/uploads/2021/07/services-image-3.jpg" alt="" width="100%">
                 </div>
             </div>
             <div class="col-lg-6 col-sm-12">
-                <div class="p-3 bg-white">
+                <div class="p-3 bg-white ">
                     <div class="row g-0">
                         <div class="col">
                             <h2>Atrium Origin Difference</h2>
@@ -238,6 +253,7 @@
             </div>
         </div>
     </div>
+    <?php include 'footer.php'; ?>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
