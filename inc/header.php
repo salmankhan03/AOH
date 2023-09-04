@@ -13,16 +13,23 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <title>AOH</title>
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        .navbar{
+
+        .navbar {
             padding: 0;
         }
-        .navbar-toggler:focus{
+
+        .navbar-toggler:focus {
             box-shadow: none;
+        }
+
+        .nav-link {
+            color: #202020 !important;
+            text-transform: uppercase;
         }
     </style>
 </head>

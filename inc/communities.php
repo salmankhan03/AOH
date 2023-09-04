@@ -69,12 +69,12 @@
     </div>
     <div class=" container">
         <div class="row gx-5 my-5 sm-my-3">
-            <div class="col-lg-5 col-sm-12">
+            <div class="col-lg-4 col-sm-12">
                 <div class="p-3">
                     <h3>Hamilton High Street Senior Residence</h3>
                 </div>
             </div>
-            <div class="col-lg-7 col-sm-12">
+            <div class="col-lg-8 col-sm-12">
                 <div class="p-3">
                     <p>Welcome to Hamilton High Street Senior Residence, one of the exceptional communities where Atrium Origin Health provides its professional care and management services. Located in the heart of Hamilton, Richmond, our residence offers a warm and inviting environment for seniors to thrive.</p>
                 </div>
@@ -82,12 +82,12 @@
         </div>
         <hr>
         <div class="row gx-5 space my-5 sm-my-3">
-            <div class="col-lg-5 col-sm-12">
+            <div class="col-lg-4 col-sm-12">
                 <div class="p-3">
                     <h3>Mayflower Coop Housing</h3>
                 </div>
             </div>
-            <div class="col-lg-7 col-sm-12">
+            <div class="col-lg-8 col-sm-12">
                 <div class="p-3">
                     <p>Mayflower Coop Housing, situated in the heart of Surrey, is a community partnered with Atrium Origin Health to provide exceptional care and living services to its residents. Nestled in the heart of a friendly neighborhood, Mayflower Coop Housing offers a unique and inclusive environment for seniors seeking an enriching and supportive lifestyle.</p>
                 </div>
@@ -95,12 +95,12 @@
         </div>
         <hr>
         <div class="row gx-5 my-5 sm-my-3">
-            <div class="col-lg-5 col-sm-12">
+            <div class="col-lg-4 col-sm-12">
                 <div class="p-3">
                     <h3>Trillium</h3>
                 </div>
             </div>
-            <div class="col-lg-7 col-sm-12">
+            <div class="col-lg-8 col-sm-12">
                 <div class="p-3">
                     <p>The latest senior independent living project in the heart of Vancouver’s most vibrant urban centre, the Cambie Corridor. Located within walking distances to SkyTrain and bus stations, an amenity of retail and restaurants, plus the Queen Elizabeth Park is just in the backyard, this development will be your new home to enjoy your golden years.</p>
                 </div>
