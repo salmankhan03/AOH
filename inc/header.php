@@ -10,28 +10,54 @@
     <!-- Bootstrap CSS -->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <title>AOH</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .navbar{
+            padding: 0;
+        }
+        .navbar-toggler:focus{
+            box-shadow: none;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="container">
-        <header class="d-flex flex-wrap justify-content-center py-3 border-bottom">
-            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-                <span class="fs-4">
-                    <img src="https://bridge439.qodeinteractive.com/wp-content/uploads/2021/07/logo.png" alt="" width="100%" height="31px">
+    <nav class="navbar navbar-expand-md">
+        <a href="" class="navbar-brand fs-3 ms-3">
+            <span class="fs-4">
+                <img src="https://bridge439.qodeinteractive.com/wp-content/uploads/2021/07/logo.png" alt="" width="100%" height="31px">
+            </span>
+        </a>
 
-                </span>
-            </a>
-
-            <ul class="nav nav-pills">
-                <li class="nav-item"><a href="home.php" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="Commitment.php" class="nav-link">Commitment</a></li>
-                <li class="nav-item"><a href="service.php" class="nav-link">Services</a></li>
-                <li class="nav-item"><a href="team.php" class="nav-link">Team</a></li>
-                <li class="nav-item"><a href="Communities.php" class="nav-link">Communities</a></li>
+        <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#btn">
+            <i class="bi bi-list bx-md"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="btn">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a href="home.php" class="nav-link mx-3 fs-5">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="commitment.php" class="nav-link mx-3 fs-5">Commitment</a>
+                </li>
+                <li class="nav-item">
+                    <a href="service.php" class="nav-link mx-3 fs-5">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="team.php" class="nav-link mx-3 fs-5">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a href="communities.php" class="nav-link mx-3 fs-5">Communities</a>
+                </li>
             </ul>
-        </header>
-    </div>
+        </div>
+    </nav>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
