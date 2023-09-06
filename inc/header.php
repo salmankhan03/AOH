@@ -29,6 +29,7 @@
         }
 
         .header-style {
+           font-weight: 50%;
             color: #202020 !important;
             text-transform: uppercase;
         }
@@ -56,6 +57,22 @@
         .header-style:hover::after {
             opacity: 1;
         }
+        /* .navbar-nav li a{
+            color: #202020;
+            display: inline-block;
+            transition: 0.5s ease;
+        }
+        .navbar-nav li .active{
+            color:#202020;
+            border-bottom: 1px solid #202020;
+            border-radius: 0.5px;
+            width: 75%;
+            transition: 0.5s ease;
+        }
+        .navbar-nav li:hover{
+            color: #202020;
+        } */
+
     </style>
 </head>
 
@@ -74,7 +91,7 @@
             <div class="collapse navbar-collapse" id="btn">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="home.php" class="nav-link header-style mx-3 fs-5">Home</a>
+                        <a href="home.php" class="nav-link header-style active mx-3 fs-5">Home</a>
                     </li>
                     <li class="nav-item">
                         <a href="commitment.php" class="nav-link header-style mx-3 fs-5">Commitment</a>
@@ -95,7 +112,19 @@
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+
+        // var btncontainer = document.getElementById("btn");
+        // var btns = btncontainer.getElementsByClassName("header-style");
+        
+        // for(var i = 0; i < btns.length; i++){
+        //     btns[i].addEventListener('click',function(){
+        //         var current = document.getElementsByClassName("active");
+        //         current[0].className = current[0].className.replace("active");
+        //         this.className += "active";
+        //     })
+        // }
+    </script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
