@@ -11,6 +11,25 @@
     <title>AOH</title>
 
     <style>
+        body {
+            position: relative;
+        }
+
+        .img2 {
+            position: absolute;
+            width: 50%;
+            right: 20px;
+            padding-top: 10px;
+        }
+
+        .cmit {
+            padding-bottom: 120px;
+        }
+
+        .gap {
+            padding-top: 120px !important;
+        }
+
         h1 {
             font-family: "Cormorant_Garamond variant0", Tofu;
             text-transform: uppercase;
@@ -50,14 +69,75 @@
         }
 
         .bg {
-            padding-top: 80px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            padding-right: 50px;
+        }
+
+        .position {
+            position: relative;
+            padding-top: 90px;
+        }
+
+        .img1 {
+            position: absolute;
+            width: 50%;
+            bottom: 80px;
+        }
+
+
+        @media only screen and (max-width: 480px) {
+
+            html,
+            body {
+                width: 100%;
+                height: 100%;
+                padding: 0px;
+                margin: 0;
+
+            }
+
+            h2 {
+                font-size: 25pt !important;
+            }
+
+            h3 {
+                font-size: 15pt !important;
+            }
+
+
+            .space {
+                padding-top: 20px;
+            }
+
+            .position {
+                padding-top: 0px;
+            }
+
+            .bg {
+                padding-top: 0px;
+                padding-bottom: 0px;
+                padding-right: 0px;
+            }
+
+            .img2 {
+
+                width: 100%;
+                right: 0px;
+
+            }
+
+            .logo {
+                padding-top: 150px !important;
+            }
+
         }
     </style>
 </head>
 
 <body>
     <?php include 'header.php'; ?>
-    <div class="logo" style="background-color:  #FAF5EC;">
+    <div class="" style="background-color:  #FAF5EC;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-md-5 col-sm-12">
@@ -66,18 +146,18 @@
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-7 col-sm-12 ">
-                    <div class="img">
+                    <div class="img2">
                         <img src="https://bridge439.qodeinteractive.com/wp-content/uploads/2021/07/home-image-5-parallax.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container space overflow-hidden my-5">
-        <div class="row gx-5" style="background-color: white;">
+    <div class="container gap space overflow-hidden">
+        <div class="row logo gx-5" style="background-color: white;">
             <div class="col-lg-6 sm-12">
                 <div class="p-3">
-                    <h2 style="font-size: 48pt !important;">
+                    <h2>
                         Our experience is the formula for your success
                     </h2>
                 </div>
@@ -91,27 +171,29 @@
             </div>
         </div>
     </div>
-    <div class="container space overflow-hidden">
-        <div class="row gx-5" style="background-color: #F0F0F0;">
-            <div class="col-lg-7 sm-12">
-                <div class="p-3">
-                    <div class="img">
-                        <img src="https://bridge439.qodeinteractive.com/wp-content/uploads/2021/07/home-image-1.jpg" alt="" width="90%">
+    <div class="position">
+        <div class="space overflow-hidden">
+            <div class="row gx-5" style="background-color: #F0F0F0;">
+                <div class="col-lg-7 col-md-7 sm-12">
+
+                    <div class="img1 d-none d-md-block">
+                        <img src="https://bridge439.qodeinteractive.com/wp-content/uploads/2021/07/services-image-4.jpg" alt="" width="90%">
                     </div>
+
                 </div>
-            </div>
-            <div class="col-lg-5 sm-12">
-                <div class="p-3">
-                    <div class="text bg">
-                        <h3>Mission</h3>
-                        <p>Our mission is to be a beacon of compassion, enriching the lives of our seniors and making a positive impact in the communities we serve. We firmly believe that by nurturing vibrant environments for the residents, we can drive substantial financial results. With our expertise in developing and operating communities that inspire vitality in seniors, we are committed to creating tangible business value.</p>
+                <div class="col-lg-5 col-md-5 sm-12">
+                    <div class="p-3">
+                        <div class="text bg">
+                            <h3>Mission</h3>
+                            <p>Our mission is to be a beacon of compassion, enriching the lives of our seniors and making a positive impact in the communities we serve. We firmly believe that by nurturing vibrant environments for the residents, we can drive substantial financial results. With our expertise in developing and operating communities that inspire vitality in seniors, we are committed to creating tangible business value.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container space my-5">
+    <div class="container space">
         <div class="value">
             <h3>values</h3>
         </div>

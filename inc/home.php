@@ -68,6 +68,51 @@
         .accordion-button:not(.collapsed)::after {
             background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/%3E%3C/svg%3E") !important;
         }
+
+        .position {
+            position: relative;
+            margin-top: 120px;
+
+        }
+
+        .img1 {
+            position: absolute;
+            bottom: 70px;
+        }
+
+        @media only screen and (max-width: 480px) {
+
+            html, body {
+                width: 100%;
+                height: 100%;
+                padding: 0px;
+                margin: 0;
+
+            }
+
+            .space {
+                padding-top: 10px;
+            }
+
+            .exp {
+                padding-left: 5%;
+                padding-right: 5%;
+                padding-top: 20px;
+
+            }
+
+            .bg {
+                padding: 10px;
+            }
+
+            .position {
+                margin-top: 0px;
+
+            }
+
+           
+
+        }
     </style>
 </head>
 
@@ -136,22 +181,24 @@
             </div>
         </div>
     </div>
-    <div class="container space my-4 overflow-hidden">
-        <div class="" style="background-color: #F0F0F0;">
-            <div class="row  gx-5">
-                <div class="col-lg-6 sm-12">
-                    <div class="p-3">
-                        <div class="text bg">
-                            <h2>Customized Solutions for Senior Facilities and Companies</h2>
-                            <p> We take pride in offering tailored solutions to meet the unique needs of senior living communities. Our expertise allows us to craft personalized strategies that align perfectly with the goals and aspirations of our partners. Whether it's enhancing operational efficiency, implementing specialized care programs, or optimizing resident experiences, we work closely with you to understand your specific requirements and challenges.</p>
+    <div class="position">
+        <div class=" space overflow-hidden">
+            <div class="" style="background-color: #F0F0F0;">
+                <div class="row  gx-5">
+                    <div class="col-lg-6 sm-12">
+                        <div class="p-3">
+                            <div class="text bg">
+                                <h2>Customized Solutions for Senior Facilities and Companies</h2>
+                                <p> We take pride in offering tailored solutions to meet the unique needs of senior living communities. Our expertise allows us to craft personalized strategies that align perfectly with the goals and aspirations of our partners. Whether it's enhancing operational efficiency, implementing specialized care programs, or optimizing resident experiences, we work closely with you to understand your specific requirements and challenges.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-6 sm-12">
-                    <div class="p-3">
-                        <div class="img2">
-                            <img src="	https://bridge439.qodeinteractive.com/wp-content/uploads/2021/07/home-image-2-1024x733.jpg" alt="" width="100%">
+                    <div class="col-lg-6 sm-12">
+
+                        <div class="img1 d-none d-md-block">
+                            <img src="	https://bridge439.qodeinteractive.com/wp-content/uploads/2021/07/home-image-2-1024x733.jpg" alt="" width="100%" height="80%">
                         </div>
+
                     </div>
                 </div>
             </div>

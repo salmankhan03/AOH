@@ -12,6 +12,18 @@
     <title>AOH</title>
 
     <style>
+        body {
+            position: relative;
+        }
+
+        .img2 {
+            position: absolute;
+            width: 50%;
+            right: 20px;
+            padding-top: 10px;
+        }
+
+
         h1 {
             font-family: "Cormorant_Garamond variant0", Tofu;
             text-transform: uppercase;
@@ -25,7 +37,7 @@
 
             font-family: "Cormorant_Garamond variant0", Tofu;
             color: #191970;
-            font-size: 48pt;
+            font-size: 48pt !important;
 
         }
 
@@ -47,12 +59,16 @@
         }
 
         .space {
-            padding-top: 50px;
+            padding-top: 60px;
         }
 
         .cont {
             padding-top: 20px;
             padding-bottom: 20px;
+        }
+
+        .cmit {
+            padding-bottom: 120px;
         }
 
         .accordion {
@@ -79,17 +95,17 @@
             border-bottom: 1px solid gray;
         }
 
-        .nav-link {
-             color: #202020 !important;
+        .line-style {
+            color: #202020 !important;
             text-transform: uppercase;
-             position: relative;
+            position: relative;
         }
 
         /* .nav-link:hover {
             text-decoration: underline;
         } */
 
-        .nav-link::after {
+        .line-style::after {
             content: '';
             opacity: 0;
             transition: all 0.2s;
@@ -101,19 +117,56 @@
             left: 0;
         }
 
-        .nav-link:hover::after {
+        .line-style:hover::after {
             opacity: 1;
         }
 
         .gap {
-            padding: 40px;
+            padding: 30px;
+        }
+
+        @media only screen and (max-width: 480px) {
+
+            html,
+            body {
+                width: 100%;
+                height: 100%;
+                padding: 0px;
+                margin: 0;
+
+            }
+
+            .img2 {
+                width: 100%;
+                right: 0px;
+            }
+
+            h2 {
+                font-size: 25pt !important;
+            }
+
+            .gap {
+                padding: 0px;
+            }
+
+            .space {
+                padding-top: 20px;
+            }
+
+            .line-style {
+                padding: 0.5rem !important;
+            }
+
+            .logo {
+                padding-top: 230px;
+            }
         }
     </style>
 </head>
 
 <body>
     <?php include 'header.php'; ?>
-    <div class="logo" style="background-color:  #FAF5EC;">
+    <div class="" style="background-color:  #FAF5EC;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-md-5 col-sm-12">
@@ -122,40 +175,43 @@
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-7 col-sm-12 ">
-                    <div class="img">
+                    <div class="img2">
                         <img src="https://bridge439.qodeinteractive.com/wp-content/uploads/2021/07/home-image-5-parallax.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container space my-5">
-        <div class="row">
-            <div class="col">
-                <h2>Turnkey solution in transforming your business</h2>
+    <div class="container space">
+        <div class="row gx-5 gap logo">
+            <div class="p-3">
+                <div class="col-lg-12 col-sm-12">
+                    <h2>Turnkey solution in transforming your business</h2>
+                </div>
             </div>
-            <div class="container overflow-hidden">
-                <div class="row gx-5 my-2">
-                    <div class="col-lg-6 col-sm-12">
-                        <div class="p-3">
-                            <p>The demand for senior living, assisted living, and memory care communities has been on the rise since the turn of the century. Navigating this challenging landscape requires a fresh perspective, and this is where we come in. Atrium Origin Health possess the expertise to optimize operational expenses, improve margins, and enhance overall profitability. Our approach also focuses on broadening audience appeal to expedite community occupancy.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-sm-12">
-                        <div class="p-3">
-                            <p>With a deep-rooted commitment to the service-enriched housing communities, we are passionate about leading the industry forward and sharing our knowledge with others in the business. Our services cater to your unique needs and objectives, ranging from full-service management to project development and consulting services. Let us align our expertise with your business, empowering you to thrive and succeed in this ever-evolving landscape.</p>
-                        </div>
-                    </div>
+        </div>
+    </div>
+    <div class="container overflow-hidden">
+        <div class="row gx-5">
+            <div class="col-lg-6 col-sm-12">
+                <div class="p-3">
+                    <p>The demand for senior living, assisted living, and memory care communities has been on the rise since the turn of the century. Navigating this challenging landscape requires a fresh perspective, and this is where we come in. Atrium Origin Health possess the expertise to optimize operational expenses, improve margins, and enhance overall profitability. Our approach also focuses on broadening audience appeal to expedite community occupancy.</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <div class="p-3">
+                    <p>With a deep-rooted commitment to the service-enriched housing communities, we are passionate about leading the industry forward and sharing our knowledge with others in the business. Our services cater to your unique needs and objectives, ranging from full-service management to project development and consulting services. Let us align our expertise with your business, empowering you to thrive and succeed in this ever-evolving landscape.</p>
                 </div>
             </div>
         </div>
     </div>
 
-    <nav class="space gap">
+
+    <nav class="space gap ">
         <div class="nav list" id="nav-tab" role="tablist">
-            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Management</button>
-            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Development</button>
-            <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Consulting</button>
+            <button class="nav-link line-style  active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Management</button>
+            <button class="nav-link line-style" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Development</button>
+            <button class="nav-link line-style" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Consulting</button>
         </div>
     </nav>
     <div class="container my-5">
@@ -164,14 +220,14 @@
                 <div class="container px-4">
                     <div class="row gx-5">
                         <div class="col-lg-5 col-sm-12">
-                            <div class="p-3">
+                            <div class="">
                                 <h3>
                                     Management
                                 </h3>
                             </div>
                         </div>
                         <div class="col-lg-7 col-sm-12 text-muted">
-                            <div class="p-3">
+                            <div class="">
                                 <p>We collaborate with owners of existing communities, bolstering their operational capacity and capability. Our goal is to reduce expenses, enabling them to lower fees, attract a broader audience, operate at full capacity, and ultimately enhance their bottom line. As a full-service management agent, we oversee all aspects of their operation, ranging from pre-opening marketing and staff management to policy development, accounting services, and regulatory compliance. Our comprehensive approach ensures seamless operations and maximizes the potential for growth and success.</p>
                             </div>
                         </div>
@@ -182,14 +238,14 @@
                 <div class="container px-4">
                     <div class="row gx-5">
                         <div class="col-lg-5 col-sm-12">
-                            <div class="p-3">
+                            <div class="">
                                 <h3>
                                     Development
                                 </h3>
                             </div>
                         </div>
                         <div class="col-lg-7 col-sm-12 text-muted">
-                            <div class="p-3">
+                            <div class="">
                                 <p>We leverage our vast experience to spearhead the entire development process on your behalf. This includes conducting thorough market analyses, creating site selection and evaluation models, securing financing, providing architectural design consultation, managing zoning matters, and obtaining regulatory approval. Additionally, we offer expert guidance on construction and site build-out, review construction payouts, and implement pre-marketing and sales initiatives. Our dedication extends to designing ongoing management and operating systems, ensuring a seamless and successful development journey.</p>
                             </div>
                         </div>
@@ -200,14 +256,14 @@
                 <div class="container px-4">
                     <div class="row gx-5">
                         <div class="col-lg-5 col-sm-12">
-                            <div class="p-3">
+                            <div class="">
                                 <h3>
                                     Consulting
                                 </h3>
                             </div>
                         </div>
                         <div class="col col-lg-7 col-sm-12">
-                            <div class="p-3 text-muted">
+                            <div class=" text-muted">
                                 <p>Our team specializes in providing strategic and operational consulting services tailored to your specific business needs. Across various facets of your organization, we offer expertise in:</p>
                                 <div class="cont">
                                     <div class="accordion accordion-flush" id="accordionFlushExample">

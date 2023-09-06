@@ -12,6 +12,26 @@
     <title>AOH</title>
 
     <style>
+        body {
+            position: relative;
+        }
+
+        .img2 {
+            position: absolute;
+            width: 50%;
+            right: 20px;
+            padding-top: 10px;
+        }
+
+        .cmit {
+            padding-bottom: 120px;
+        }
+
+        .gap {
+            padding-top: 50px;
+            padding-right: 20px;
+        }
+
         h1 {
             font-family: "Cormorant_Garamond variant0", Tofu;
             text-transform: uppercase;
@@ -42,12 +62,43 @@
         .space {
             padding-top: 50px;
         }
+
+        @media only screen and (max-width: 480px) {
+
+            html,
+            body {
+                width: 100%;
+                height: 100%;
+                padding: 0px;
+                margin: 0;
+
+            }
+
+            .img2 {
+                width: 100%;
+                right: 0px;
+            }
+
+            h2 {
+                font-size: 25pt !important;
+                padding-top: 175px;
+            }
+
+            h3 {
+                font-size: 15pt !important;
+            }
+
+            .space {
+                padding-top: 0px;
+            }
+
+        }
     </style>
 </head>
 
 <body>
     <?php include 'header.php'; ?>
-    <div class="logo" style="background-color:  #FAF5EC;">
+    <div class="" style="background-color:  #FAF5EC;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-md-5 col-sm-12">
@@ -56,7 +107,7 @@
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-7 col-sm-12 ">
-                    <div class="img">
+                    <div class="img2">
                         <img src="https://bridge439.qodeinteractive.com/wp-content/uploads/2021/07/home-image-5-parallax.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
@@ -64,46 +115,36 @@
         </div>
     </div>
     <div class="container space my-5 sm-my-3">
-        <h2 style=" font-size: 48pt !important;">
-            Our trophied accomplishments</h2>
+        <div class="gap">
+            <h2>
+                Our trophied accomplishments</h2>
+        </div>
     </div>
     <div class=" container">
-        <div class="row gx-5 my-5 sm-my-3">
+        <div class="row gx-5 space my-5 ">
             <div class="col-lg-4 col-sm-12">
-                <div class="p-3">
-                    <h3>Hamilton High Street Senior Residence</h3>
-                </div>
+                <h3>Hamilton High Street Senior Residence</h3>
             </div>
             <div class="col-lg-8 col-sm-12">
-                <div class="p-3">
-                    <p>Welcome to Hamilton High Street Senior Residence, one of the exceptional communities where Atrium Origin Health provides its professional care and management services. Located in the heart of Hamilton, Richmond, our residence offers a warm and inviting environment for seniors to thrive.</p>
-                </div>
+                <p>Welcome to Hamilton High Street Senior Residence, one of the exceptional communities where Atrium Origin Health provides its professional care and management services. Located in the heart of Hamilton, Richmond, our residence offers a warm and inviting environment for seniors to thrive.</p>
             </div>
         </div>
         <hr>
-        <div class="row gx-5 space my-5 sm-my-3">
+        <div class="row gx-5 space my-5 ">
             <div class="col-lg-4 col-sm-12">
-                <div class="p-3">
-                    <h3>Mayflower Coop Housing</h3>
-                </div>
+                <h3>Mayflower Coop Housing</h3>
             </div>
             <div class="col-lg-8 col-sm-12">
-                <div class="p-3">
-                    <p>Mayflower Coop Housing, situated in the heart of Surrey, is a community partnered with Atrium Origin Health to provide exceptional care and living services to its residents. Nestled in the heart of a friendly neighborhood, Mayflower Coop Housing offers a unique and inclusive environment for seniors seeking an enriching and supportive lifestyle.</p>
-                </div>
+                <p>Mayflower Coop Housing, situated in the heart of Surrey, is a community partnered with Atrium Origin Health to provide exceptional care and living services to its residents. Nestled in the heart of a friendly neighborhood, Mayflower Coop Housing offers a unique and inclusive environment for seniors seeking an enriching and supportive lifestyle.</p>
             </div>
         </div>
         <hr>
-        <div class="row gx-5 my-5 sm-my-3">
+        <div class="row gx-5 space my-5 ">
             <div class="col-lg-4 col-sm-12">
-                <div class="p-3">
-                    <h3>Trillium</h3>
-                </div>
+                <h3>Trillium</h3>
             </div>
             <div class="col-lg-8 col-sm-12">
-                <div class="p-3">
-                    <p>The latest senior independent living project in the heart of Vancouver’s most vibrant urban centre, the Cambie Corridor. Located within walking distances to SkyTrain and bus stations, an amenity of retail and restaurants, plus the Queen Elizabeth Park is just in the backyard, this development will be your new home to enjoy your golden years.</p>
-                </div>
+                <p>The latest senior independent living project in the heart of Vancouver’s most vibrant urban centre, the Cambie Corridor. Located within walking distances to SkyTrain and bus stations, an amenity of retail and restaurants, plus the Queen Elizabeth Park is just in the backyard, this development will be your new home to enjoy your golden years.</p>
             </div>
         </div>
     </div>

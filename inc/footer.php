@@ -27,6 +27,13 @@
         p {
             font-family: "Mulish variant0", Tofu;
         }
+
+        @media only screen and (max-width: 480px) {
+            h3 {
+                font-size: 15pt !important;
+            }
+
+        }
     </style>
 </head>
 

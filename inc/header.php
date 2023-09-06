@@ -21,18 +21,19 @@
 
         .navbar {
             padding: 0;
+
         }
 
         .navbar-toggler:focus {
             box-shadow: none;
         }
 
-        .nav-link {
+        .header-style {
             color: #202020 !important;
             text-transform: uppercase;
         }
 
-        .nav-link {
+        .header-style {
             position: relative;
         }
 
@@ -40,11 +41,11 @@
             text-decoration: underline;
         } */
 
-        .nav-link::after {
+        .header-style::after {
             content: '';
             opacity: 0;
             transition: all 0.2s;
-            height: 2px;
+            height: 1px;
             width: 100%;
             background-color: black;
             position: absolute;
@@ -52,44 +53,45 @@
             left: 0;
         }
 
-        .nav-link:hover::after {
+        .header-style:hover::after {
             opacity: 1;
         }
     </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md">
-        <a href="" class="navbar-brand fs-3 ms-3">
-            <span class="fs-4">
-                <img src="https://bridge439.qodeinteractive.com/wp-content/uploads/2021/07/logo.png" alt="" width="100%" height="31px">
-            </span>
-        </a>
+    <div class="sticky-lg-top" style="background-color: white;">
+        <nav class="navbar navbar-expand-md">
+            <a href="" class="navbar-brand fs-3 ms-3">
+                <span class="fs-4">
+                    <img src="https://bridge439.qodeinteractive.com/wp-content/uploads/2021/07/logo.png" alt="" width="100%" height="31px">
+                </span>
+            </a>
 
-        <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#btn">
-            <i class="bi bi-list bx-md"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="btn">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a href="home.php" class="nav-link mx-3 fs-5">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="commitment.php" class="nav-link mx-3 fs-5">Commitment</a>
-                </li>
-                <li class="nav-item">
-                    <a href="service.php" class="nav-link mx-3 fs-5">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a href="team.php" class="nav-link mx-3 fs-5">Team</a>
-                </li>
-                <li class="nav-item">
-                    <a href="communities.php" class="nav-link mx-3 fs-5">Communities</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
+            <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#btn">
+                <i class="bi bi-list bx-md"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="btn">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="home.php" class="nav-link header-style mx-3 fs-5">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="commitment.php" class="nav-link header-style mx-3 fs-5">Commitment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="service.php" class="nav-link header-style mx-3 fs-5">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="team.php" class="nav-link header-style mx-3 fs-5">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="communities.php" class="nav-link header-style mx-3 fs-5">Communities</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
