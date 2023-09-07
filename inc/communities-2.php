@@ -131,10 +131,10 @@
                 font-size: 25pt !important;
             }
 
-            .gap {
+            /* .gap {
                 padding-top: 30px;
 
-            }
+            } */
 
             h3 {
                 font-size: 20pt !important;
