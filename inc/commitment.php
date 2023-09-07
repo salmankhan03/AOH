@@ -132,6 +132,34 @@
             }
 
         }
+
+        @media only screen and (max-width: 900px) {
+
+            .img1 {
+                position: relative !important;
+                width: 100%;
+            }
+
+            /* .img2 {
+                width: 55% !important;
+                padding-top: 80px;
+            } */
+
+          
+
+            .position {
+                padding-top: 10px;
+            }
+
+            .bg {
+                padding-top: 0px;
+                padding-bottom: 0px;
+                padding-right: 0px;
+            }
+
+            
+
+        }
     </style>
 </head>
 
@@ -174,14 +202,14 @@
     <div class="position">
         <div class="space overflow-hidden">
             <div class="row gx-5" style="background-color: #F0F0F0;">
-                <div class="col-lg-7 col-md-7 sm-12">
+                <div class="col-lg-7 col-sm-12">
 
                     <div class="img1 d-none d-md-block">
                         <img src="https://bridge439.qodeinteractive.com/wp-content/uploads/2021/07/services-image-4.jpg" alt="" width="90%">
                     </div>
 
                 </div>
-                <div class="col-lg-5 col-md-5 sm-12">
+                <div class="col-lg-5 col-sm-12">
                     <div class="p-3">
                         <div class="text bg">
                             <h3>Mission</h3>

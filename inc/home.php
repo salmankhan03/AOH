@@ -82,7 +82,8 @@
 
         @media only screen and (max-width: 480px) {
 
-            html, body {
+            html,
+            body {
                 width: 100%;
                 height: 100%;
                 padding: 0px;
@@ -109,9 +110,22 @@
                 margin-top: 0px;
 
             }
+        }
 
-           
+        @media only screen and (max-width: 900px) {
 
+            .img1 {
+                position: relative;
+                padding: 20px;
+            }
+
+            .position {
+                margin-top: 0px;
+            }
+            .exp{
+                padding-left: 10%;
+                padding-right: 10%;
+            }
         }
     </style>
 </head>

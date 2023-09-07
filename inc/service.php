@@ -161,6 +161,23 @@
                 padding-top: 230px;
             }
         }
+
+        @media only screen and (max-width: 900px) {
+
+            /* .img2 {
+                width: 55% !important;
+                padding-top: 80px;
+            } */
+
+            h2 {
+                font-size: 25pt !important;
+            }
+
+            /* .gap {
+                padding-top: 30px;
+                padding: 15px;         
+               } */
+        }
     </style>
 </head>
 
