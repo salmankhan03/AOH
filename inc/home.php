@@ -32,7 +32,7 @@
         }
 
         .space {
-            padding-top: 50px;
+            padding-top: 60px;
         }
 
         .bg {
@@ -122,7 +122,8 @@
             .position {
                 margin-top: 0px;
             }
-            .exp{
+
+            .exp {
                 padding-left: 10%;
                 padding-right: 10%;
             }
@@ -131,7 +132,7 @@
 </head>
 
 <body>
-    <?php include 'header.php'; ?>
+    <?php include '../inc/header.php'; ?>
     <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -176,16 +177,16 @@
             </div>
         </div>
     </div>
-    <div class="container space overflow-hidden">
+    <div class="space overflow-hidden">
         <div class="row  gx-5" style="background-color: white;">
             <div class="col-lg-6 sm-12">
-                <div class="p-3">
+                <div class="">
                     <div class="img">
-                        <img src="https://bridge439.qodeinteractive.com/wp-content/uploads/2021/07/home-image-1.jpg" alt="" width="100%">
+                        <img src="https://bridge439.qodeinteractive.com/wp-content/uploads/2021/07/home-image-1.jpg" alt="" width="90%">
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 sm-12">
+            <div class="col-lg-6 sm-12" style="padding-top: 40px;">
                 <div class="p-3">
                     <div class="text">
                         <h2>Compassionate Care for Aging Loved Ones</h2>
@@ -198,7 +199,7 @@
     <div class="position">
         <div class=" space overflow-hidden">
             <div class="" style="background-color: #F0F0F0;">
-                <div class="row  gx-5">
+                <div class="row gx-5">
                     <div class="col-lg-6 sm-12">
                         <div class="p-3">
                             <div class="text bg">
@@ -314,7 +315,7 @@
             </div>
         </div>
     </div>
-    <?php include 'footer.php'; ?>
+    <?php include '../inc/footer.php'; ?>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

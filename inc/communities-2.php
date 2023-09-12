@@ -71,6 +71,67 @@
             padding-bottom: 120px;
         }
 
+        .navbar {
+            padding: 0;
+            background-color: #FAF5EC;
+
+        }
+
+        .line {
+            position: relative;
+            font-size: 40px;
+            color: #333;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .line::before {
+            content: "";
+            position: absolute;
+            bottom: -2px;
+            height: 3px;
+            width: 0;
+            background: #D2BD92;
+            border-radius: 10px;
+            transition: width 0.3s ease;
+        }
+
+        .line:hover::before {
+            width: 100%;
+        }
+
+        /* button a{
+            background: transparent;
+            border: 1PX solid #202020;
+            color: #202020;
+            text-transform: uppercase;
+            font-size: 18PX;
+            letter-spacing: 2px;
+            cursor: pointer;
+            padding: 10px 50px;
+            position: relative;
+            transition: 0.5s ease-in-out;
+        }
+
+        button a::before {
+            position: absolute;
+            content: "";
+            inset: 0;
+            z-index: -1;
+            clip-path: circle(100% at 50% 50%);
+            background: #F0F0F0;
+            transition: 0.5s ease-in-out;
+        }
+
+        button a:hover {
+            color: #191970;
+        }
+
+        button a:hover::before {
+            clip-path: circle(100% at 50% 50%);
+        } */
+
+
         @media only screen and (max-width: 480px) {
 
             html,
@@ -85,6 +146,7 @@
             .img2 {
                 width: 100%;
                 right: 0px;
+                padding-top: 0px;
             }
 
             h2 {
@@ -152,7 +214,7 @@
 </head>
 
 <body>
-    <?php include 'header.php'; ?>
+    <?php include '../inc/header.php'; ?>
     <div class="" style="background-color:  #FAF5EC;">
         <div class="container">
             <div class="row">
@@ -185,15 +247,20 @@
             </div>
             <div class="col-lg-6 col-sm-12">
                 <div class="text1">
-                    <h3>Hamilton High Street Senior Residence</h3>
+                    <div class="line">
+                        <h3>Hamilton High Street Senior Residence</h3>
+                    </div>
                     <p>Welcome to Hamilton High Street Senior Residence, one of the exceptional communities where Atrium Origin Health provides its professional care and management services. Located in the heart of Hamilton, Richmond, our residence offers a warm and inviting environment for seniors to thrive.</p>
+                    <!-- <button><a href="#" class="nav-link">website</a></button> -->
                 </div>
             </div>
         </div>
         <div class="row  space">
             <div class="col-lg-6 col-sm-12">
                 <div class="text2">
-                    <h3>Mayflower Coop Housing</h3>
+                    <div class="line">
+                        <h3>Mayflower Coop Housing</h3>
+                    </div>
                     <p> Mayflower Coop Housing, situated in the heart of Surrey, is a community partnered with Atrium Origin Health to provide exceptional care and living services to its residents. Nestled in the heart of a friendly neighborhood, Mayflower Coop Housing offers a unique and inclusive environment for seniors seeking an enriching and supportive lifestyle.</p>
                 </div>
 
@@ -213,18 +280,22 @@
             </div>
             <div class="col-lg-6 col-sm-12">
                 <div class="text1">
-                    <h3>Trillium</h3>
+                    <div class="line">
+                        <h3>Trillium</h3>
+                    </div>
                     <p>The latest senior independent living project in the heart of Vancouver’s most vibrant urban centre, the Cambie Corridor. Located within walking distances to SkyTrain and bus stations, an amenity of retail and restaurants, plus the Queen Elizabeth Park is just in the backyard, this development will be your new home to enjoy your golden years.</p>
                 </div>
             </div>
         </div>
 
     </div>
+
+    <?php include '../inc/footer.php'; ?>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <?php include 'footer.php'; ?>
+
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
