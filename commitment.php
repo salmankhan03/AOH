@@ -8,6 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <title>AOH</title>
 
     <style>
@@ -172,7 +173,8 @@
 </head>
 
 <body>
-    <?php include '../inc/header.php'; ?>
+
+    <?php include '../AOH/component/header.php'; ?>
     <div class="" style="background-color:  #FAF5EC;">
         <div class="container">
             <div class="row">
@@ -298,7 +300,8 @@
             </div>
         </div>
     </div>
-    <?php include '../inc/footer.php'; ?>
+
+    <?php include '../AOH/component/footer.php'; ?>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
