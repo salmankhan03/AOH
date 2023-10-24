@@ -15,7 +15,7 @@
             font-family: "Cormorant_Garamond variant0", Tofu;
             text-transform: uppercase;
             color: #191970;
-        };
+        }
   
         h5 {
 
