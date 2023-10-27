@@ -93,19 +93,19 @@
                 <ul class="navbar-nav ms-auto">
                     <!-- <div id="mark"></div> -->
                     <li class="nav-item">
-                        <a href="/AOH/home.php" class="nav-link header-style active mx-3 ">Home</a>
+                        <a href="index.php" class="nav-link header-style active mx-3 ">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/AOH/commitment.php" class="nav-link header-style mx-3 ">Commitment</a>
+                        <a href="commitment.php" class="nav-link header-style mx-3 ">Commitment</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/AOH/service.php" class="nav-link header-style mx-3 ">Services</a>
+                        <a href="service.php" class="nav-link header-style mx-3 ">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/AOH/team.php" class="nav-link header-style mx-3 ">Team</a>
+                        <a href="team.php" class="nav-link header-style mx-3 ">Team</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/AOH/communities.php" class="nav-link header-style mx-3 ">Communities</a>
+                        <a href="communities.php" class="nav-link header-style mx-3 ">Communities</a>
                     </li>
                 </ul>
             </div>
