@@ -28,7 +28,7 @@
             text-transform: uppercase;
             color: #191970;
             text-align: center;
-            padding-top: 40%;
+            /* padding-top: 40%; */
             font-size: 65pt;
         }
 
@@ -99,6 +99,23 @@
 
         .line:hover::before {
             width: 100%;
+        }
+
+        .container-with-image {
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+        }
+
+        .container-title {
+        text-align: center;
+        padding: 20px;
+        width: 100%;
+        }
+
+        .container-image {
+        width: 100%;
         }
 
         /* button a{
@@ -216,7 +233,19 @@
 
 <body>
     <?php include 'header.php'; ?>
-    <div class="" style="background-color:  #FAF5EC;">
+    <div class="container-fluid" style="background-color: #FAF5EC;">
+        <div class="row">
+            <div class="col-md-6 container-with-image">
+            <div class="container-title">
+                <h1>Our communities</h1>
+            </div>
+            </div>
+            <div class="col-md-6 container-with-image bannerImg">
+            <img src="images\home\img1.jpg" alt="Your Image" class="img-fluid container-image" />
+            </div>
+        </div>
+    </div>
+    <!-- <div class="" style="background-color:  #FAF5EC;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-md-5 col-sm-12">
@@ -231,7 +260,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <div class="container gap">
         <div class="gap">
             <h2>

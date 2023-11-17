@@ -22,6 +22,13 @@
             right: 20px;
             padding-top: 10px;
         }
+/* 
+        .img2 {
+            position: absolute;
+            width: 50%;
+            right: 20px;
+            padding-top: 10px;
+        } */
 
         .cmit {
             padding-bottom: 120px;
@@ -36,7 +43,7 @@
             text-transform: uppercase;
             color: #191970;
             text-align: center;
-            padding-top: 40%;
+            /* padding-top: 40%; */
             font-size: 65pt;
         }
 
@@ -81,7 +88,7 @@
         }
 
         .img1 {
-            position: absolute;
+            position: relative;
             width: 50%;
             bottom: 80px;
         }
@@ -90,6 +97,28 @@
             padding: 0;
             background-color: #FAF5EC;
 
+        }
+
+        .img2 {
+            position: relative;
+            bottom: 70px;
+        }
+
+        .container-with-image {
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+        }
+
+        .container-title {
+        text-align: center;
+        padding: 20px;
+        width: 100%;
+        }
+
+        .container-image {
+        width: 100%;
         }
 
 
@@ -128,13 +157,13 @@
                 padding-right: 0px;
             }
 
-            .img2 {
+            /* .img2 {
 
                 width: 100%;
                 right: 0px;
                 padding-top: 0px;
 
-            }
+            } */
 
             .logo {
                 padding-top: 150px !important;
@@ -153,6 +182,11 @@
                 width: 55% !important;
                 padding-top: 80px;
             } */
+
+            .img2 {
+                position: relative;
+                padding: 20px;
+            }
 
 
 
@@ -175,24 +209,23 @@
 <body>
 
     <?php include 'header.php'; ?>
-    <div class="" style="background-color:  #FAF5EC;">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-md-5 col-sm-12">
-                    <div class="cmit d-none d-md-block">
-                        <h1>Our commitment</h1>
-                    </div>
-                </div>
-                <div class="col-lg-7 col-md-7 col-sm-12 ">
-                    <div class="img2">
-                        <img src="https://bridge439.qodeinteractive.com/wp-content/uploads/2021/07/home-image-5-parallax.jpg" class="d-block w-100" alt="...">
-                    </div>
-                </div>
+
+    <div class="container-fluid" style="background-color: #FAF5EC;">
+        <div class="row">
+            <div class="col-md-6 container-with-image">
+            <div class="container-title">
+                <h1>Our commitment</h1>
+            </div>
+            </div>
+            <div class="col-md-6 container-with-image bannerImg">
+            <img src="images\home\img1.jpg" alt="Your Image" class="img-fluid container-image" />
             </div>
         </div>
     </div>
-    <div class="container gap space overflow-hidden">
-        <div class="row logo gx-5" style="background-color: white;">
+   
+   
+    <div class="container  space overflow-hidden">
+        <div class="row  gx-5" style="background-color: white;">
             <div class="col-lg-6 sm-12">
                 <div class="p-3">
                     <h2>
@@ -209,13 +242,15 @@
             </div>
         </div>
     </div>
+
+
     <div class="position">
         <div class="space overflow-hidden">
             <div class="row gx-5" style="background-color: #F0F0F0;">
                 <div class="col-lg-7 col-sm-12">
 
                     <div class="img1 d-none d-md-block">
-                        <img src="https://bridge439.qodeinteractive.com/wp-content/uploads/2021/07/services-image-4.jpg" alt="" width="90%">
+                        <img src="https://bridge439.qodeinteractive.com/wp-content/uploads/2021/07/services-image-4.jpg" alt="" width="100%">
                     </div>
 
                 </div>
@@ -312,6 +347,13 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
+
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
+
+<!-- Bootstrap JS and Popper.js (if needed) -->
+<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> -->
 </body>
 
 </html>

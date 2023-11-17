@@ -77,7 +77,7 @@
         }
 
         .img1 {
-            position: absolute;
+            position: relative;
             bottom: 70px;
         }
 
@@ -187,7 +187,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 sm-12" style="padding-top: 40px;">
+            <div class="col-lg-6 sm-12" style="display: flex; align-items: center">
                 <div class="p-3">
                     <div class="text">
                         <h2>Compassionate Care for Aging Loved Ones</h2>
@@ -201,7 +201,7 @@
         <div class=" space overflow-hidden">
             <div class="" style="background-color: #F0F0F0;">
                 <div class="row gx-5">
-                    <div class="col-lg-6 sm-12">
+                    <div class="col-lg-6 sm-12" style="display: flex; align-items: center">
                         <div class="p-3">
                             <div class="text bg">
                                 <h2>Customized Solutions for Senior Facilities and Companies</h2>

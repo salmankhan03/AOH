@@ -29,7 +29,7 @@
             text-transform: uppercase;
             color: #191970;
             text-align: center;
-            padding-top: 40%;
+            /* padding-top: 40%; */
             font-size: 65pt;
         }
 
@@ -131,6 +131,23 @@
 
         }
 
+        .container-with-image {
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+        }
+
+        .container-title {
+        text-align: center;
+        padding: 20px;
+        width: 100%;
+        }
+
+        .container-image {
+        width: 100%;
+        }
+
         @media only screen and (max-width: 480px) {
 
             html,
@@ -190,22 +207,20 @@
 
 <body>
     <?php include 'header.php'; ?>
-    <div class="" style="background-color:  #FAF5EC;">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-md-5 col-sm-12">
-                    <div class="cmit d-none d-md-block">
-                        <h1>Our services</h1>
-                    </div>
-                </div>
-                <div class="col-lg-7 col-md-7 col-sm-12 ">
-                    <div class="img2">
-                        <img src="https://bridge439.qodeinteractive.com/wp-content/uploads/2021/07/home-image-5-parallax.jpg" class="d-block w-100" alt="...">
-                    </div>
-                </div>
+
+    <div class="container-fluid" style="background-color: #FAF5EC;">
+        <div class="row">
+            <div class="col-md-6 container-with-image">
+            <div class="container-title">
+                <h1>Our services</h1>
+            </div>
+            </div>
+            <div class="col-md-6 container-with-image bannerImg">
+            <img src="images\home\img1.jpg" alt="Your Image" class="img-fluid container-image" />
             </div>
         </div>
     </div>
+    
     <div class="container space">
         <div class="row gx-5 gap logo">
             <div class="p-3">
