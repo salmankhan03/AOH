@@ -48,11 +48,11 @@
                 <center>
                     <h5>Menu</h5>
                     <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="/AOHDEMO/AOH/home.php" class="nav-link p-0 text-muted">Home</a></li>
-                        <li class="nav-item mb-2"><a href="/AOHDEMO/AOH/Commitment.php" class="nav-link p-0 text-muted">Commitment</a></li>
-                        <li class="nav-item mb-2"><a href="/AOHDEMO/AOH/service.php" class="nav-link p-0 text-muted">Services</a></li>
-                        <li class="nav-item mb-2"><a href="/AOHDEMO/AOH/team.php" class="nav-link p-0 text-muted">Team</a></li>
-                        <li class="nav-item mb-2"><a href="/AOHDEMO/AOH/Communities.php" class="nav-link p-0 text-muted">Communities</a></li>
+                        <li class="nav-item mb-2"><a href="home.php" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="Commitment.php" class="nav-link p-0 text-muted">Commitment</a></li>
+                        <li class="nav-item mb-2"><a href="service.php" class="nav-link p-0 text-muted">Services</a></li>
+                        <li class="nav-item mb-2"><a href="team.php" class="nav-link p-0 text-muted">Team</a></li>
+                        <li class="nav-item mb-2"><a href="Communities.php" class="nav-link p-0 text-muted">Communities</a></li>
                     </ul>
                 </center>
             </div>

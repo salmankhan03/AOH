@@ -292,7 +292,7 @@
 </head>
 
 <body>
-    <?php include '../AOH/header.php'; ?>
+    <?php include 'header.php'; ?>
     <div class="" style="background-color:  #FAF5EC;">
         <div class="container">
             <div class="row">
@@ -488,7 +488,7 @@
         </div>
     </div>
     </div>
-    <?php include '../AOH/footer.php'; ?>
+    <?php include 'footer.php'; ?>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
