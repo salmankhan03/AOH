@@ -77,11 +77,11 @@
         }
 
         .img1 {
-            position: relative;
+            position: absolute;
             bottom: 70px;
         }
 
-        @media only screen and (max-width: 480px) {
+        @media only screen and (max-width: 500px) {
 
             html,
             body {
@@ -111,9 +111,18 @@
                 margin-top: 0px;
 
             }
+
+            .img1 {
+                padding-top: 100px !important;
+            }
+
+            .img {
+                padding-top: 50px;
+                padding-left: 40px !important;
+            }
         }
 
-        @media only screen and (max-width: 900px) {
+        @media only screen and (max-width: 1000px) {
 
             .img1 {
                 position: relative;
@@ -128,12 +137,27 @@
                 padding-left: 10%;
                 padding-right: 10%;
             }
+
+            .img {
+                padding-top: 50px;
+                padding-left: 75px !important;
+            }
+        }
+
+        @media only screen and (max-width: 1150px) {
+            .space {
+                padding-top: 0px;
+            }
+
+            .img {
+                padding-top: 50px;
+            }
         }
     </style>
 </head>
 
 <body>
-    <?php include 'header.php'; ?>
+    <?php include '../AOH/header.php'; ?>
     <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -180,14 +204,14 @@
     </div>
     <div class="space overflow-hidden">
         <div class="row  gx-5" style="background-color: white;">
-            <div class="col-lg-6 sm-12">
+            <div class="col-lg-6 col-md-12 col-sm-12">
                 <div class="">
                     <div class="img">
                         <img src="https://bridge439.qodeinteractive.com/wp-content/uploads/2021/07/home-image-1.jpg" alt="" width="90%">
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 sm-12" style="display: flex; align-items: center">
+            <div class="col-lg-6 col-md-12 col-sm-12" style="padding-top: 40px;">
                 <div class="p-3">
                     <div class="text">
                         <h2>Compassionate Care for Aging Loved Ones</h2>
@@ -201,7 +225,7 @@
         <div class=" space overflow-hidden">
             <div class="" style="background-color: #F0F0F0;">
                 <div class="row gx-5">
-                    <div class="col-lg-6 sm-12" style="display: flex; align-items: center">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
                         <div class="p-3">
                             <div class="text bg">
                                 <h2>Customized Solutions for Senior Facilities and Companies</h2>
@@ -209,9 +233,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 sm-12">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
 
-                        <div class="img1 d-none d-md-block">
+                        <div class="img1 d-md-block">
                             <img src="	https://bridge439.qodeinteractive.com/wp-content/uploads/2021/07/home-image-2-1024x733.jpg" alt="" width="100%" height="80%">
                         </div>
 
@@ -316,7 +340,7 @@
             </div>
         </div>
     </div>
-    <?php include 'footer.php'; ?>
+    <?php include '../AOH/footer.php'; ?>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

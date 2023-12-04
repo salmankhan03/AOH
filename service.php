@@ -29,7 +29,7 @@
             text-transform: uppercase;
             color: #191970;
             text-align: center;
-            /* padding-top: 40%; */
+            padding-top: 40%;
             font-size: 65pt;
         }
 
@@ -131,24 +131,7 @@
 
         }
 
-        .container-with-image {
-            position: relative;
-            overflow: hidden;
-            display: flex;
-            align-items: center;
-        }
-
-        .container-title {
-        text-align: center;
-        padding: 20px;
-        width: 100%;
-        }
-
-        .container-image {
-        width: 100%;
-        }
-
-        @media only screen and (max-width: 480px) {
+        @media only screen and (max-width: 500px) {
 
             html,
             body {
@@ -165,8 +148,23 @@
                 padding-top: 0px;
             }
 
+            h1 {
+                font-size: 40pt;
+                padding-top: 10px;
+            }
+
+            h3 {
+                font-size: 15pt !important;
+            }
+
+
             h2 {
                 font-size: 25pt !important;
+                padding-top: 60px;
+            }
+
+            .cmit {
+                padding-bottom: 10px;
             }
 
             .gap {
@@ -186,12 +184,100 @@
             }
         }
 
+        @media only screen and (500px <=width <=600px) {
+            .img2 {
+                width: 100%;
+                height: 50%;
+                right: 0px;
+                padding-top: 0px;
+
+            }
+
+            h1 {
+                font-size: 50pt;
+                padding-top: 10px;
+            }
+
+            h2 {
+                font-size: 30pt !important;
+                padding-top: 300px !important;
+            }
+
+            h3 {
+                font-size: 20pt !important;
+            }
+
+            .cmit {
+                padding-bottom: 10px;
+            }
+
+
+        }
+
+        @media only screen and (700px <=width <=800px) {
+            h2 {
+                font-size: 30pt !important;
+                padding-top: 400px !important;
+
+            }
+
+        }
+
+        @media only screen and (800px <=width <=900px) {
+            h2 {
+                font-size: 30pt !important;
+                padding-top: 475px !important;
+
+            }
+
+        }
+
+        @media only screen and (900px <=width <=1000px) {
+            h2 {
+                font-size: 30pt !important;
+                padding-top: 550px !important;
+
+            }
+
+        }
+
+        @media only screen and (600px <=width <=1000px) {
+            .img2 {
+                width: 100%;
+                height: 50%;
+                right: 0px;
+                padding-top: 0px;
+
+            }
+
+            h1 {
+                font-size: 50pt;
+                padding-top: 10px;
+            }
+
+            h2 {
+                font-size: 30pt !important;
+                padding-top: 330px;
+
+            }
+
+            h3 {
+                font-size: 20pt !important;
+            }
+
+            /* .gap {
+                margin-top: 40px;
+            } */
+
+            .cmit {
+                padding-bottom: 10px;
+            }
+
+        }
+
         @media only screen and (max-width: 900px) {
 
-            /* .img2 {
-                width: 55% !important;
-                padding-top: 80px;
-            } */
+
 
             h2 {
                 font-size: 25pt !important;
@@ -206,21 +292,23 @@
 </head>
 
 <body>
-    <?php include 'header.php'; ?>
-
-    <div class="container-fluid" style="background-color: #FAF5EC;">
-        <div class="row">
-            <div class="col-md-6 container-with-image">
-            <div class="container-title">
-                <h1>Our services</h1>
-            </div>
-            </div>
-            <div class="col-md-6 container-with-image bannerImg">
-            <img src="images\home\img1.jpg" alt="Your Image" class="img-fluid container-image" />
+    <?php include '../AOH/header.php'; ?>
+    <div class="" style="background-color:  #FAF5EC;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-12 col-sm-12">
+                    <div class="cmit">
+                        <h1>Our services</h1>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-12 col-sm-12 ">
+                    <div class="img2">
+                        <img src="https://bridge439.qodeinteractive.com/wp-content/uploads/2021/07/home-image-5-parallax.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    
     <div class="container space">
         <div class="row gx-5 gap logo">
             <div class="p-3">
@@ -400,7 +488,7 @@
         </div>
     </div>
     </div>
-    <?php include 'footer.php'; ?>
+    <?php include '../AOH/footer.php'; ?>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

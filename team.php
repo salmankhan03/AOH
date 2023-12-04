@@ -46,7 +46,7 @@
 </head>
 
 <body>
-    <?php include 'header.php'; ?>
+    <?php include '../AOH/header.php'; ?>
     <div class="container team my-5">
         <div>
             <h1>our team</h1>
@@ -65,7 +65,7 @@
             </div>
         </div>
     </div>
-    <?php include 'footer.php'; ?>
+    <?php include '../AOH/footer.php'; ?>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
