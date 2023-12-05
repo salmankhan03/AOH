@@ -48,7 +48,7 @@
                 <center>
                     <h5>Menu</h5>
                     <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="home.php" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="index.php" class="nav-link p-0 text-muted">Home</a></li>
                         <li class="nav-item mb-2"><a href="Commitment.php" class="nav-link p-0 text-muted">Commitment</a></li>
                         <li class="nav-item mb-2"><a href="service.php" class="nav-link p-0 text-muted">Services</a></li>
                         <li class="nav-item mb-2"><a href="team.php" class="nav-link p-0 text-muted">Team</a></li>
