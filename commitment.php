@@ -25,6 +25,8 @@
 
         .cmit {
             padding-bottom: 120px;
+            display:flex;
+            text-align:start
         }
 
         .gap {
@@ -241,6 +243,7 @@
 
             .cmit {
                 padding-bottom: 10px;
+            
             }
 
         }
@@ -281,9 +284,9 @@
             }
         }
         @media only screen and (min-width: 1446px) {
-            .container{
+            /* .container{
                 max-width: 2500px !important;
-            }
+            } */
             .img2 {
                 /* position: absolute; */
                 position: relative;
@@ -307,7 +310,7 @@
     <div class="content" style="background-color:  #FAF5EC;">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5  col-md-12 col-sm-12">
+                <div class="col-lg-5 col-md-12 col-sm-12">
                     <div class="cmit">
                         <h1>Our commitment</h1>
                     </div>

@@ -25,6 +25,8 @@
 
         .cmit {
             padding-bottom: 120px;
+            display:flex;
+            text-align:start
         }
 
         .gap {
@@ -230,9 +232,9 @@
             }
         }
         @media only screen and (min-width: 1446px) {
-            .container{
+            /* .container{
                 max-width: 2500px !important;
-            }
+            } */
             .img2 {
                 /* position: absolute; */
                 position: relative;

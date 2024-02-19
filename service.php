@@ -69,6 +69,8 @@
 
         .cmit {
             padding-bottom: 120px;
+            display:flex;
+            text-align:start
         }
 
         .accordion {
@@ -289,9 +291,9 @@
                } */
         }
         @media only screen and (min-width: 1446px) {
-            .container{
+            /* .container{
                 max-width: 2500px !important;
-            }
+            } */
             .img2 {
                 /* position: absolute; */
                 position: relative;
@@ -321,8 +323,9 @@
             </div>
         </div>
     </div>
-    <div class="container space">
-        <div class="row gx-5 gap logo">
+    <!-- space -->
+    <div class="container ">
+        <div class="row logo pt-5">
             <div class="p-3">
                 <div class="col-lg-12 col-sm-12">
                     <h2>Turnkey solution in transforming your business</h2>

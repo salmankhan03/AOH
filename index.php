@@ -157,7 +157,7 @@
         @media only screen and (min-width: 1446px) {
             .img1 {
                 position: relative;
-                padding: 10px !important;
+                /* padding: 10px !important; */
             }
         }
         @media only screen and (min-width: 769px) and (max-width: 1025px) {
@@ -166,6 +166,7 @@
             margin-top: 30px;
 
         }
+
         }
 
 
