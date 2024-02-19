@@ -151,6 +151,7 @@
 
             .img {
                 padding-top: 50px;
+                padding-left: 25px !important;
             }
         }
     </style>
@@ -166,19 +167,19 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="10000">
-                <img src="https://bridge439.qodeinteractive.com/wp-content/uploads/2021/07/home-image-3-parallax.jpg" class="d-block w-100" alt="..." height="50%">
+                <img src="./images/home/home_banner_1.jpg" class="d-block w-100" alt="..." height="50%">
                 <div class="carousel-caption d-none d-md-block">
                     <h1>Pioneers in driving business results through innovative approach</h1>
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="2000">
-                <img src="https://bridge439.qodeinteractive.com/wp-content/uploads/2021/07/home-image-5-parallax.jpg" class="d-block w-100" alt="..." height="50%">
+                <img src="./images/home/home_banner_2.jpg" class="d-block w-100" alt="..." height="50%">
                 <div class="carousel-caption d-none d-md-block">
                     <h1>Customized services lead by strategic insights of senior living industry</h1>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="https://bridge439.qodeinteractive.com/wp-content/uploads/2021/07/services-image-2.jpg" class="d-block w-100" alt="..." height="50%">
+                <img src="./images/home/home_banner_3.jpg" class="d-block w-100" alt="..." height="50%">
                 <div class="carousel-caption d-none d-md-block">
                     <h1>Established and trusted partner in senior living management </h1>
                 </div>
@@ -207,7 +208,7 @@
             <div class="col-lg-6 col-md-12 col-sm-12">
                 <div class="">
                     <div class="img">
-                        <img src="https://bridge439.qodeinteractive.com/wp-content/uploads/2021/07/home-image-1.jpg" alt="" width="90%">
+                        <img src="./images/home/image_1.jpg" alt="" width="90%">
                     </div>
                 </div>
             </div>
@@ -236,7 +237,7 @@
                     <div class="col-lg-6 col-md-12 col-sm-12">
 
                         <div class="img1 d-md-block">
-                            <img src="	https://bridge439.qodeinteractive.com/wp-content/uploads/2021/07/home-image-2-1024x733.jpg" alt="" width="100%" height="80%">
+                            <img src="./images/home/image_2.jpg" alt="" width="100%" height="80%">
                         </div>
 
                     </div>
@@ -248,7 +249,7 @@
         <div class="row  gx-5">
             <div class="col-lg-6 col-sm-12">
                 <div class="p-3 bg-white">
-                    <img src="https://bridge439.qodeinteractive.com/wp-content/uploads/2021/07/services-image-3.jpg" alt="" width="100%">
+                    <img src="./images/home/services.jpg" alt="" width="100%">
                 </div>
             </div>
             <div class="col-lg-6 col-sm-12">

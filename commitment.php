@@ -83,6 +83,7 @@
         .img1 {
             position: absolute;
             width: 50%;
+            height: 85%;
             bottom: 80px;
         }
 
@@ -144,7 +145,7 @@
             .img1 {
                 width: 100% !important;
                 top: 10px;
-                left: 25px;
+                left: 15px;
             }
 
             .gap {
@@ -295,7 +296,7 @@
                 </div>
                 <div class="col-lg-7 col-md-12 col-sm-12 ">
                     <div class="img2">
-                        <img src="https://bridge439.qodeinteractive.com/wp-content/uploads/2021/07/home-image-5-parallax.jpg" class="d-block w-100" alt="...">
+                        <img src="./images/commitment/banner_commitment.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
             </div>
@@ -325,7 +326,7 @@
                 <div class="col-lg-7 col-md-12 col-sm-12">
 
                     <div class="img1 d-md-block">
-                        <img src="https://bridge439.qodeinteractive.com/wp-content/uploads/2021/07/services-image-4.jpg" alt="" width="90%">
+                        <img src="./images/commitment//image_1.jpg" alt="" width="90%">
                     </div>
 
                 </div>
