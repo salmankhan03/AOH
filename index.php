@@ -154,6 +154,23 @@
                 padding-left: 25px !important;
             }
         }
+        @media only screen and (min-width: 1446px) {
+            .img1 {
+                position: relative;
+                padding: 10px !important;
+            }
+        }
+        @media only screen and (min-width: 769px) and (max-width: 1025px) {
+            .position {
+            position: relative;
+            margin-top: 30px;
+
+        }
+        }
+
+
+        
+
     </style>
 </head>
 
@@ -203,8 +220,8 @@
             </div>
         </div>
     </div>
-    <div class="space overflow-hidden">
-        <div class="row  gx-5" style="background-color: white;">
+    <div class="space overflow-hidden " >
+        <div class="row mb-5 gx-5" style="">
             <div class="col-lg-6 col-md-12 col-sm-12">
                 <div class="">
                     <div class="img">
@@ -212,7 +229,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-12 col-sm-12" style="padding-top: 40px;">
+            <!-- <div class="col-lg-6 col-md-12 col-sm-12" style=""> -->
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex align-items-center">
                 <div class="p-3">
                     <div class="text">
                         <h2>Compassionate Care for Aging Loved Ones</h2>
@@ -223,10 +241,10 @@
         </div>
     </div>
     <div class="position">
-        <div class=" space overflow-hidden">
+        <div class=" space overflow-hidden" >
             <div class="" style="background-color: #F0F0F0;">
                 <div class="row gx-5">
-                    <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="col-lg-6 col-md-12 col-sm-12 d-flex align-items-center">
                         <div class="p-3">
                             <div class="text bg">
                                 <h2>Customized Solutions for Senior Facilities and Companies</h2>

@@ -280,6 +280,24 @@
                 padding-left: 500px !important;
             }
         }
+        @media only screen and (min-width: 1446px) {
+            .container{
+                max-width: 2500px !important;
+            }
+            .img2 {
+                /* position: absolute; */
+                position: relative;
+                width: 100% !important;
+                right: 20px;
+                padding-top: 10px;
+            }
+            .img1 {
+            position: relative;
+            width: 100% !important;
+            height: 85%;
+            bottom: 80px;
+        }
+        }
     </style>
 </head>
 
@@ -289,7 +307,7 @@
     <div class="content" style="background-color:  #FAF5EC;">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 col-md-12 col-sm-12">
+                <div class="col-lg-5  col-md-12 col-sm-12">
                     <div class="cmit">
                         <h1>Our commitment</h1>
                     </div>
@@ -330,7 +348,7 @@
                     </div>
 
                 </div>
-                <div class="col-lg-5 col-md-12 col-sm-12">
+                <div class="col-lg-5 col-md-12 col-sm-12 d-flex align-items-center">
                     <div class="p-3">
                         <div class="text bg">
                             <h3>Mission</h3>

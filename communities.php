@@ -229,6 +229,18 @@
                 font-size: 20pt !important;
             }
         }
+        @media only screen and (min-width: 1446px) {
+            .container{
+                max-width: 2500px !important;
+            }
+            .img2 {
+                /* position: absolute; */
+                position: relative;
+                width: 100% !important;
+                right: 20px;
+                padding-top: 10px;
+            }
+        }
     </style>
 </head>
 
